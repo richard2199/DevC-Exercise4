@@ -8,9 +8,9 @@
     <title>AYOCoding</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="images/favicon-AYOCoding.ico">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/favicon-AYOCoding.ico">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans" rel="stylesheet">
@@ -29,7 +29,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <a href="index.html"><img src="images/AYOCoding(1).png" class="img-responsive"></a>
+            <a href="index.html"><img src="../images/AYOCoding(1).png" class="img-responsive"></a>
           </div>
           <div class="col-sm-8">
             <nav class="navbar navbar-default">
@@ -48,13 +48,13 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu/about-us.html">About Us</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Learning <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="menu/front-end-page.html"> Front-End </a></li>
-                        <li><a href="menu/back-end-page.html"> Back-End </a></li>
+                        <li><a href="./front-end-page.html"> Front-End </a></li>
+                        <li><a href="./back-end-page.html"> Back-End </a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
@@ -64,7 +64,7 @@
                         <li><a href="#"> Mading </a></li>
                       </ul>
                     </li>
-                    <li><a href="menu/contact.html">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
 
 
                     <!-- Button trigger modal -->
@@ -111,7 +111,7 @@
                               </div>
                               <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                  <button type="submit" class="btn btn-default">Masuk</button>
+                                  <button type="submit" class="btn btn-default">Sign in</button>
                                 </div>
                               </div>
                             </form>
@@ -129,55 +129,46 @@
       </div>
     </header><!-- END OF HEADER -->
 
-    <div class="container-fluid featured hidden-xs">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1> AYOCoding<br>Education </h1>
-            <p> Bangun skill programming Anda Sebagai Developer Profesional, Belajar langsung dengan AYOCoding. </p>
-            <p><a href="menu/about-us.html" class="btnFeatured btn btn-default btn-lg"> Ingin tahu lebih lanjut? </a></p>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="../images/HTML_Slide.jpg" alt="...">
           </div>
-          <div class="col-sm-6-offset">
+          <div class="item">
+            <img src="../images/Javascript-Slide.jpg" alt="...">
+          </div>
+          <div class="item">
+            <img src="../images/CSS_Slide.jpg" alt="...">
           </div>
         </div>
-      </div>
-    </div><!-- END OF FEATURED -->
+      
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+
+
 
     <div class="container">
       <div class="col-sm-12 text-center title">
-        <h2> Bangun Skill Anda Bersama Kami </h2>
-        <p> AYOCoding Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ducimus nostrum reiciendis eaque similique accusantium ipsa, provident corporis, voluptas at aut temporibus cum nemo nobis quibusdam illo nisi voluptatibus excepturi. </p>
-      </div>
-      <div class="row learning">
-        <div class="col-sm-4 text-center">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <h3><a href="#"> MODUL </a></h3>
-              <p> Belajar mengembangkan aplikasi website atau mobile dengan modul yang sudah di siapkan oleh para instruktur. </p>
-              <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-            </div>
-          </div>
-        </div><!-- Learning 1 -->
-
-        <div class="col-sm-4 text-center">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <h3><a href="#"> ACHIEVEMENT </a></h3>
-              <p> Kembangkan produk aplikasi website atau mobile dengan mempelajari modul yang sudah disediakan. </p>
-              <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
-            </div>
-          </div>
-        </div><!-- Learning 2 -->
-
-        <div class="col-sm-4 text-center">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <h3><a href="#"> NETWORKING </a></h3>
-              <p> Kembangkan jaringan dan belajar dengan teman diskusi melalui forum diskusi agar kalian memiliki relasi yang luas. </p>
-              <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-            </div>
-          </div>
-        </div><!-- Learning 3 -->
+        <h1> About Us </h1>
+        <p> AYOCoding, Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ducimus nostrum reiciendis eaque similique accusantium ipsa, provident corporis, voluptas at aut temporibus cum nemo nobis quibusdam illo nisi voluptatibus excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sed beatae molestias quod, doloremque fugit nostrum in maxime exercitationem tempora velit ut, aliquam sunt iure nemo voluptas sint quasi suscipit?. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nobis id necessitatibus, dolores saepe fugiat cupiditate sunt consequatur dolor ullam itaque dolorum at ipsa nisi, animi fugit rerum. Dolor, ipsa. </p>
       </div>
     </div><!-- END OF CoNTAINER -->
 
@@ -225,7 +216,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
   </body>
 </html>

@@ -8,9 +8,9 @@
     <title>AYOCoding</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="images/favicon-AYOCoding.ico">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/favicon-AYOCoding.ico">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans" rel="stylesheet">
@@ -29,7 +29,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <a href="index.html"><img src="images/AYOCoding(1).png" class="img-responsive"></a>
+            <a href="index.html"><img src="../images/AYOCoding(1).png" class="img-responsive"></a>
           </div>
           <div class="col-sm-8">
             <nav class="navbar navbar-default">
@@ -48,13 +48,13 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu/about-us.html">About Us</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Learning <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="menu/front-end-page.html"> Front-End </a></li>
-                        <li><a href="menu/back-end-page.html"> Back-End </a></li>
+                        <li><a href="./front-end-page.html"> Front-End </a></li>
+                        <li><a href="./back-end-page.html"> Back-End </a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
@@ -64,7 +64,7 @@
                         <li><a href="#"> Mading </a></li>
                       </ul>
                     </li>
-                    <li><a href="menu/contact.html">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
 
 
                     <!-- Button trigger modal -->
@@ -111,7 +111,7 @@
                               </div>
                               <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                  <button type="submit" class="btn btn-default">Masuk</button>
+                                  <button type="submit" class="btn btn-default">Sign in</button>
                                 </div>
                               </div>
                             </form>
@@ -129,57 +129,50 @@
       </div>
     </header><!-- END OF HEADER -->
 
-    <div class="container-fluid featured hidden-xs">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1> AYOCoding<br>Education </h1>
-            <p> Bangun skill programming Anda Sebagai Developer Profesional, Belajar langsung dengan AYOCoding. </p>
-            <p><a href="menu/about-us.html" class="btnFeatured btn btn-default btn-lg"> Ingin tahu lebih lanjut? </a></p>
+    <section class="contact" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>Contact</h2>
+              <hr>
+            </div>
           </div>
-          <div class="col-sm-6-offset">
+    
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <form action="https://formspree.io/martinus.richard.09@gmail.com" method="POST">
+                <div class="form-grup">
+                  <label for="nama">Nama</label>
+                  <input type="text" id="nama" class="form-control" placeholder="Masukan Nama" name="name">
+                </div>
+                <div class="form-grup">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-control" placeholder="Masukan Email" name="_replyto">
+                </div>
+                <div class="form-grup">
+                  <label for="telp">No Telepon</label>
+                  <input type="text" id="telp" class="form-control" placeholder="Masukan No Telepon" name="_replyto">
+                </div>
+                <div class="form-grup">
+                  <label for="pesan">Pesan</label>
+                  <textarea class="form-control" rows="10" placeholder="Masukan Pesan" name="_replyto"></textarea>
+                </div>
+                <button class="btnSubmit btn btn-primary" type="submit" value="Send">Kirim Pesan</button>
+    
+              </form>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- END CONTACT -->
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5339694287572!2d106.76393960041972!3d-6.19304982732496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f71c058e4eeb%3A0xfff57b74e553f9f3!2sJl.+Melati+No.60%2C+RT.12%2FRW.10%2C+Kb.+Jeruk%2C+Kota+Jakarta+Barat%2C+Daerah+Khusus+Ibukota+Jakarta+11530!5e0!3m2!1sen!2sid!4v1551959972273" width="1100" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
-    </div><!-- END OF FEATURED -->
-
-    <div class="container">
-      <div class="col-sm-12 text-center title">
-        <h2> Bangun Skill Anda Bersama Kami </h2>
-        <p> AYOCoding Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ducimus nostrum reiciendis eaque similique accusantium ipsa, provident corporis, voluptas at aut temporibus cum nemo nobis quibusdam illo nisi voluptatibus excepturi. </p>
-      </div>
-      <div class="row learning">
-        <div class="col-sm-4 text-center">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <h3><a href="#"> MODUL </a></h3>
-              <p> Belajar mengembangkan aplikasi website atau mobile dengan modul yang sudah di siapkan oleh para instruktur. </p>
-              <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-            </div>
-          </div>
-        </div><!-- Learning 1 -->
-
-        <div class="col-sm-4 text-center">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <h3><a href="#"> ACHIEVEMENT </a></h3>
-              <p> Kembangkan produk aplikasi website atau mobile dengan mempelajari modul yang sudah disediakan. </p>
-              <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
-            </div>
-          </div>
-        </div><!-- Learning 2 -->
-
-        <div class="col-sm-4 text-center">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <h3><a href="#"> NETWORKING </a></h3>
-              <p> Kembangkan jaringan dan belajar dengan teman diskusi melalui forum diskusi agar kalian memiliki relasi yang luas. </p>
-              <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-            </div>
-          </div>
-        </div><!-- Learning 3 -->
-      </div>
-    </div><!-- END OF CoNTAINER -->
 
     <div class="container">
       <div class="row">
@@ -225,7 +218,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
   </body>
 </html>
